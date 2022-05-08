@@ -1,0 +1,42 @@
+[
+    {
+        "Brand": "BMW",
+        "Model": "M135i xDrive"
+    },
+    {
+        "Brand": "Mercedes-Benz",
+        "Model": "GLA 250"
+    },
+    {
+        "Brand": "Proton",
+        "Model": "X70"
+    },
+    {
+        "Brand": "Perodua",
+        "Model": "Ativa 1.0"
+    },
+    {
+        "Brand": "Honda",
+        "Model": "Civic 1.5"
+    },
+    {
+        "Brand": "Toyota",
+        "Model": "Rush 1.5"
+    },
+    {
+        "Brand": "Ferrari",
+        "Model": "458 Italia"
+    },
+    {
+        "Brand": "Bugatti",
+        "Model": "Chiron Super Sport"
+    },
+    {
+        "Brand": "Produa",
+        "Model": "Aruz 1.5"
+    },
+    {
+        "Brand": "Honda",
+        "Model": "City 1.5"
+    }
+]
