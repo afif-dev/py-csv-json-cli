@@ -4,7 +4,7 @@ CSV and JSON Converter CLI app build with [Python Fire library](https://github.c
 
 CLI app included in distribution folder (dist/py-csv-json-cli.exe)
 
-![](https://github.com/afif-dev/py-cryptography-cli/blob/main/py-cryptography-cli-ss-encrypt.png)
+![](https://github.com/afif-dev/py-csv-json-cli/blob/main/py-csv-json-cli-ss.png)
 
 
 ## Basic Usage
@@ -17,11 +17,14 @@ py py-csv-json-cli --help
 2. Covert CSV to JSON
 ```
 py py-csv-json-cli csvtojson car-models.csv
+
 * Note: example of csv file is car-models.csv 
 ```
 3. Covert JSON to CSV
 ```
 py py-csv-json-cli jsontocsv csvtojson-1652043963.json
+
+* Note: example of json file is csvtojson-1652043963.json
 ```
 
 ## Setup for Local Development
@@ -64,5 +67,5 @@ deactivate
 - https://github.com/google/python-fire
 - https://pyinstaller.org/en/stable/usage.html
 - https://www.geeksforgeeks.org/convert-csv-to-json-using-python/
-- https://www.geeksforgeeks.org/convert-json-to-csv-in-python/?ref=lbp
+- https://www.geeksforgeeks.org/convert-json-to-csv-in-python/
 
