@@ -16,7 +16,7 @@ class ConvertCsvJson(object):
         if not jsonFilePath.endswith('.json'):
             return "Error: Invalid JSON file!"
 
-        csvOutputFile = "jsontocsv-{timestamp}.csv".format(timestamp=self._timestamp)
+        csvOutputFile = f"jsontocsv-{self._timestamp}.csv"
         
         with open(jsonFilePath) as jsonf:
             jsondata = json.load(jsonf)
@@ -35,7 +35,7 @@ class ConvertCsvJson(object):
         
         data_file.close()
 
-        return "Successfully created {output}".format(output=csvOutputFile)
+        return f"Successfully created {csvOutputFile}"
 
 
     def csvtojson(self,csvFilePath):
@@ -45,7 +45,7 @@ class ConvertCsvJson(object):
         if not csvFilePath.endswith('.csv'):
             return "Error: Invalid CSV file!"
         
-        jsonOutputFile = "csvtojson-{timestamp}.json".format(timestamp=self._timestamp)
+        jsonOutputFile = f"csvtojson-{self._timestamp}.json"
         data = []
 
         with open(csvFilePath, encoding='utf-8') as csvf:
@@ -56,7 +56,7 @@ class ConvertCsvJson(object):
         with open(jsonOutputFile, 'a', encoding='utf-8') as jsonf:
             jsonf.write(json.dumps(data, indent=4))
 
-        return "Successfully created {output}".format(output=jsonOutputFile)
+        return f"Successfully created {jsonOutputFile}"
 
 
 if __name__ == '__main__':
