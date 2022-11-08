@@ -4,7 +4,7 @@ CSV and JSON Converter CLI app build with [Python Fire library](https://github.c
 
 CLI app included in distribution folder (dist/py-csv-json-cli.exe)
 
-![](https://github.com/afif-dev/py-csv-json-cli/blob/main/py-csv-json-cli-ss.png)
+![](py-csv-json-cli-ss.png)
 
 
 ## Basic Usage
